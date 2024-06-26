@@ -1,9 +1,6 @@
 body {
    padding: 0;
    margin: 0;
-}
-
-.wrap {
    display: flex;
    height: 100vh;
    align-items: center;
@@ -13,6 +10,10 @@ body {
    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
    background-color: beige;
+}
+
+.wrap {
+   max-width: 500px;
 }
 
 #greeting {
